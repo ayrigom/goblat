@@ -1,5 +1,6 @@
 @echo off
 color f7
+color f7
 cls
 ping localhost -n 5 > nul
 cls
